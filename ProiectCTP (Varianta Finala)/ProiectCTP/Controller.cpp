@@ -326,13 +326,11 @@ Autobuz** Controller::SugestiiOptime(string po, string so, string da) {
 						
 						}
 					if (ok1 == true) {
-						//bestSuggestion[f++] = autobuze_pornire[d];
 						if ((FindAutobuz(autobuze_sosire[d]->getNumar(), bestSuggestion, f) == false)){
-						//cout <<"f este"<< f;
 						bestSuggestion[f++] = schimbari[j];
-							bestSuggestion[f++] = autobuze_sosire[d];
+						bestSuggestion[f++] = autobuze_sosire[d];
 					}
-						//cout << autobuze_sosire[d];
+						
 					}
 
 				}
@@ -344,21 +342,6 @@ Autobuz** Controller::SugestiiOptime(string po, string so, string da) {
 
 	}
 
-
-
-	//cout << "\nPorniri: \n";
-	//for (int i = 0; i < k; i++)  cout << autobuze_pornire[i];
-	//cout << "Sosiri: " << endl;
-	//for (int i = 0; i < l; i++)  cout << autobuze_sosire[i];
-
-	//cout << "\n\n\nRuta directa:\n";
-	//	for (int i = 0; i < m; i++) cout << porniri_sosiri[i];
-	
-	//cout << "Schimbari:\n";
-	//for (int i = 0; i < n; i++) cout << schimbari[i];
-	//cout << "\n\n\n\n\n\n\n\n";
-	//for (int i = 0; i < f; i++) cout << bestSuggestion[i];
-	//	if ((m == 0) && (f == 0)) cout << "Nu exista legatura intre autobuzele introduse :)\n";
 	return bestSuggestion;
 }
 
@@ -410,7 +393,7 @@ int Controller::LungimeSugestiiOptime(string po, string so, string da) {
 
 			}
 		}
-		//cout << "pozitie " << pos;
+	
 		for (int i = pos + 1; i < schimbari[j]->getLinie()->getStatii().size(); i++) {
 
 			for (int d = 0; d < l; d++) {
@@ -425,13 +408,11 @@ int Controller::LungimeSugestiiOptime(string po, string so, string da) {
 
 					}
 					if (ok1 == true) {
-						//bestSuggestion[f++] = autobuze_pornire[d];
 						if (FindAutobuz(autobuze_sosire[d]->getNumar(), bestSuggestion, f) == false) {
-							//cout << "f este" << f;
+							
 							bestSuggestion[f++] = schimbari[j];
 							bestSuggestion[f++] = autobuze_sosire[d];
 						}
-						//cout << autobuze_sosire[d];
 					}
 
 				}
@@ -443,20 +424,5 @@ int Controller::LungimeSugestiiOptime(string po, string so, string da) {
 
 	}
 
-
-
-	//cout << "\nPorniri: \n";
-	//for (int i = 0; i < k; i++)  cout << autobuze_pornire[i];
-	//cout << "Sosiri: " << endl;
-	//for (int i = 0; i < l; i++)  cout << autobuze_sosire[i];
-
-	//cout << "\n\n\nRuta directa:\n";
-	//	for (int i = 0; i < m; i++) cout << porniri_sosiri[i];
-	//
-	//cout << "Schimbari:\n";
-	//for (int i = 0; i < n; i++) cout << schimbari[i];
-	//cout << "\n\n\n\n\n\n\n\n";
-	//for (int i = 0; i < f; i++) cout << bestSuggestion[i];
-	//	if ((m == 0) && (f == 0)) cout << "Nu exista legatura intre autobuzele introduse :)\n";
 	return f;
 }

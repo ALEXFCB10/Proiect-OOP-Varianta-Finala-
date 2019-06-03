@@ -137,7 +137,9 @@ bool CTP::Achizitionare() {
 		Preconditii:-
 		Output:true sau false
 		Postconditii:Subprogramul returneaza true daca achizitionarea poate fi facuta sau false, in rest
-		Error:-*/
+		Error:Subprogramul returneaza eroare daca avem de-a face cu una dintre situatiile: statie de sosire sau statie de pornire invalida
+																						   numar de autobuz inexistent
+																						   numar de bilete invalid*/
 	time_t tme = time(NULL);
 	tm timePtr;
 	localtime_s(&timePtr, &tme);

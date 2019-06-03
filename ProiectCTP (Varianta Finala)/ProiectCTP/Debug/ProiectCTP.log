@@ -1,2 +1,15 @@
-﻿  ProiectCTP.cpp
+﻿  CTP.cpp
+  Controller.cpp
+C:\Users\Alex\source\repos\ProiectCTP (Varianta Finala)\ProiectCTP\Controller.cpp(285,21): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Alex\source\repos\ProiectCTP (Varianta Finala)\ProiectCTP\Controller.cpp(308,21): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Alex\source\repos\ProiectCTP (Varianta Finala)\ProiectCTP\Controller.cpp(315,27): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Alex\source\repos\ProiectCTP (Varianta Finala)\ProiectCTP\Controller.cpp(323,24): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Alex\source\repos\ProiectCTP (Varianta Finala)\ProiectCTP\Controller.cpp(367,22): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Alex\source\repos\ProiectCTP (Varianta Finala)\ProiectCTP\Controller.cpp(390,21): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Alex\source\repos\ProiectCTP (Varianta Finala)\ProiectCTP\Controller.cpp(397,27): warning C4018:  '<': signed/unsigned mismatch
+  ProiectCTP.cpp
+  Generating Code...
+C:\Users\Alex\source\repos\ProiectCTP (Varianta Finala)\ProiectCTP\Controller.cpp(405,24): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Alex\source\repos\ProiectCTP (Varianta Finala)\ProiectCTP\Controller.cpp(405,24): warning C4018: C:\Users\Alex\source\repos\ProiectCTP (Varianta Finala)\ProiectCTP\Controller.cpp(231) : warning C4715: 'Controller::FiltrareAutobuz': not all control paths return a value
+C:\Users\Alex\source\repos\ProiectCTP (Varianta Finala)\ProiectCTP\Controller.cpp(405,24): warning C4018: C:\Users\Alex\source\repos\ProiectCTP (Varianta Finala)\ProiectCTP\CTP.cpp(132) : warning C4715: 'CTP::Login_SignIn': not all control paths return a value
   ProiectCTP.vcxproj -> C:\Users\Alex\source\repos\ProiectCTP (Varianta Finala)\Debug\ProiectCTP.exe
